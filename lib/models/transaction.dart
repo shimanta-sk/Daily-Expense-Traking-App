@@ -4,7 +4,7 @@ class Transaction extends StatelessWidget {
   String? id;
   String? title;
   double? amount;
-  DateTime? date;
+  DateTime date;
   Transaction({
     super.key,
     required this.id,
